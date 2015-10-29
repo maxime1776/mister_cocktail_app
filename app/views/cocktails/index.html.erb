@@ -1,0 +1,25 @@
+
+<h1 class="text-center"> Cocktail's house</h1>
+<p><%= link_to 'Add a cocktail', new_cocktail_path %>
+
+<div class="container">
+
+  <div class="row">
+    <% @cocktails.each do |cocktail|%>
+
+    <div class="col-xs-12 col-sm-3">
+      <div class="card">
+        <span class="card-bg" style="background-image:url('https://unsplash.it/1100/1000?image=10')"></span>
+        <span class="card-text align-center">
+          <h2><%= cocktail.name %></span></h2>
+          <p><%= link_to 'More informations', cocktail_path(cocktail), {class: 'btn btn-primary'}%></p>
+        </span>
+      </div>
+      </div>
+    <% end %>
+   </div>
+  </div>
+
+
+
+

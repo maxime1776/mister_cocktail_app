@@ -15,8 +15,15 @@ cocktails = Cocktail.create ([
   ])
 
 
-ingreatient = Ingredient.create([
-  {name: 'menthe'},
-  {name: 'sucre'}
+Ingredient.create(name: "lemon")
+Ingredient.create(name: "ice")
+Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "menth")
+Ingredient.create(name: "sucre")
+Ingredient.create(name: "eau")
+Ingredient.create(name: "levure")
 
-])
+
+
+
+
