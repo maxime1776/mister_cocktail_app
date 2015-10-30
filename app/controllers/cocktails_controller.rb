@@ -25,7 +25,6 @@ class CocktailsController < ApplicationController
       render :new
     end
 
-
  end
 
  # PATCH/PUT /cocktails/1
